@@ -1,5 +1,32 @@
 # Change Log
 
+## [2.3.0](https://github.com/chef/bento/tree/2.3.0) (2016-09-30)
+[Full Changelog](https://github.com/chef/bento/compare/2.2.9...2.3.0)
+
+**Added Platforms:**
+
+- add Debian 8.6 [\#669](https://github.com/chef/bento/issues/669)
+
+**Improvements:**
+
+- Changed the vagrant users UID from 900 to 1000. Fix \#688 [\#675](https://github.com/chef/bento/pull/675) ([rickard-von-essen](https://github.com/rickard-von-essen))
+- Updating build.sh with more env vars [\#672](https://github.com/chef/bento/pull/672) ([cheeseplus](https://github.com/cheeseplus))
+- Add script to disable system sleep for Mac OS X [\#656](https://github.com/chef/bento/pull/656) ([cblecker](https://github.com/cblecker))
+- Renames "ubuntu-server" task -\> "server" for Ubuntu 14.04 [\#654](https://github.com/chef/bento/pull/654) ([conorsch](https://github.com/conorsch))
+- Speed up booting process for FreeBSD saving 10 seconds in boot time [\#648](https://github.com/chef/bento/pull/648) ([amontalban](https://github.com/amontalban))
+- Check to see if release has already taken place [\#644](https://github.com/chef/bento/pull/644) ([cheeseplus](https://github.com/cheeseplus))
+- Add script for sles-12-sp1 [\#643](https://github.com/chef/bento/pull/643) ([oven](https://github.com/oven))
+- Refactored vmware tools scripts [\#638](https://github.com/chef/bento/pull/638) ([svpace](https://github.com/svpace))
+
+**Tool Versions:**
+
+- Packer 0.11.0 (master)
+- VirtualBox 5.1.16
+- VMware Fusion 8.5.0
+- VMware Workstation 12.5.0
+- Parallels Pro 12.0.2
+- Vagrant 1.8.6
+
 ## [2.2.9](https://github.com/chef/bento/tree/2.2.9) (2016-08-01)
 [Full Changelog](https://github.com/chef/bento/compare/2.2.8...2.2.9)
 
