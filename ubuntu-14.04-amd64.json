@@ -233,6 +233,7 @@
         "scripts/ubuntu/networking.sh",
         "scripts/ubuntu/sudoers.sh",
         "scripts/ubuntu/vagrant.sh",
+        "scripts/common/puphpet.sh",
         "scripts/common/virtualbox.sh",
         "scripts/common/vmware.sh",
         "scripts/common/parallels.sh",
